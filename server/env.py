@@ -16,7 +16,6 @@ from lib.coins import Coin
 from lib.env_base import EnvBase
 import lib.util as lib_util
 
-
 NetIdentity = namedtuple('NetIdentity', 'host tcp_port ssl_port nick_suffix')
 
 
