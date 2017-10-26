@@ -518,7 +518,8 @@ class KHcoin(Coin):
     REORG_LIMIT = 800
     PEER_DEFAULT_PORTS = {'t': '50001', 's': '50002'}
     PEERS = [
-        'electrum-ltc.khcoin.inmean.com s t',
+        'electrum.khcoin.inmean.com s t',
+        'electrum.khcoinproject.com s t',
 	]
 
 
