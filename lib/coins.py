@@ -499,22 +499,22 @@ class Litecoin(Coin):
     ]
 
 
-class KHcoin(Coin):
-    NAME = "KHcoin"
-    SHORTNAME = "KHC"
+class 69coin(Coin):
+    NAME = "69coin"
+    SHORTNAME = "69C"
     NET = "mainnet"
     XPUB_VERBYTES = bytes.fromhex("019d9cfe")
     XPRV_VERBYTES = bytes.fromhex("019da462")
     P2PKH_VERBYTE = bytes.fromhex("30")
     P2SH_VERBYTES = [bytes.fromhex("32"), bytes.fromhex("05")]
     WIF_BYTE = bytes.fromhex("b0")
-    GENESIS_HASH = ('880f88fae7fa11cbfd440e4a0a29cb68'
-                    'c190ace7dffe89aec31a963a442aae00')
+    GENESIS_HASH = ('6f3c8d3e8e0e69e817e40578f2e66d82'
+                    '60908331bc0e52d292cca832a92865cf')
     DESERIALIZER = lib_tx.DeserializerSegWit
     TX_COUNT = 0
     TX_COUNT_HEIGHT = 0
     TX_PER_BLOCK = 10
-    RPC_PORT = 8850
+    RPC_PORT = 2442
     REORG_LIMIT = 800
     PEER_DEFAULT_PORTS = {'t': '50001', 's': '50002'}
     PEERS = [
